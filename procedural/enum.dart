@@ -14,13 +14,11 @@ void main() {
   GreetFor greet = GreetFor.morning;
   Titles title = Titles.mr;
   String name = "Ubaid";
-  String message = "";
-
-  message = "Good";
+  String message = "good";
 
   switch (greet) {
     case GreetFor.morning:
-      message +=  "Morning ";
+      message +=  " Morning ";
       break;
 
     case GreetFor.afternoon:
