@@ -2,7 +2,7 @@ class BankAccount {
   BankAccount({required this.title});
 
   final String title;
-  int _balance = 0; // underscore defines the propert is private can be modify in the same file and can not be accessible from other file
+  int _balance = 0; // underscore defines the property is private can be modify in the same file and can not be accessible from other file
 
   void deposit(int amount) => _balance += amount;
 
