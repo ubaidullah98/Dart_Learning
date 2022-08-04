@@ -3,7 +3,7 @@ class Person {
   int age;
 
   Person({required this.name, required this.age})
-      : assert(age > 0,
+      : assert(age > 0,//if this condition is not true the below condition will run
             'Age must be greater then zero'); //run with dart assert.dart --enable-asserts
 
 }
